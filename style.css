@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #3D2909;
+  color: #f0e7da;
+}
+
+.leaderboard-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.main-logo {
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #f0e7da;
+}
+
+.gang-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #7c6f61;
+  padding-top: 10px;
+}
+
+.gang-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gang-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.gang-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gang-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.members::before {
+  content: "Members: ";
+  font-weight: normal;
+  color: #bbb;
+}
+
+.points::before {
+  content: "Points: ";
+  font-weight: normal;
+  color: #bbb;
+}
